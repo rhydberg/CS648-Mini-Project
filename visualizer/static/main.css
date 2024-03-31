@@ -1,0 +1,100 @@
+.heading{
+    color: #292b28;
+    background-color: #36e617;
+    font-size: 6vh;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 55vw;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 15px;
+}
+
+.subheading{
+    color: #292b28;
+    background-color: #36e617;
+    font-size: 3vh;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 20vw;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 15px;
+
+}
+
+.user{
+    /* background-color: blueviolet; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.canvas{
+    background-color: #1c1e1a;
+    height: 50%;
+    width: 95vw;
+    margin: 30px;
+    border-radius: 30px;
+}
+
+.input{
+    background-color: white;
+    padding : 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: #36e617;
+}
+.container-fluid{
+    background-color: #292b28;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.description{
+    color:#36e617;
+    margin: 35px;
+    background-color: black;
+    padding :25px;
+    border-radius: 10px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.button{
+    background-color: #36e617 !important;
+    color: black;
+    height: 70%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+
+}
+
+.info{
+    position: fixed;
+    bottom: 10vh;
+    text-align: center;
+    width: 20vw;
+    color: #36e617; 
+    background-color: black;
+    padding :20px;
+    border-radius: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: none   ;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100vw;
+    color: #36e617;
+}

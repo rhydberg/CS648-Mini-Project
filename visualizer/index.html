@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CS648 Mini-Project</title>
+        <link rel="stylesheet" href="static/main.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+        
+        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"> -->
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    </head>
+    <div class = "container-fluid">
+        
+        <h1 class = "heading">CS648 Mini-Project Visualizer</h1>
+        <h3 class = "subheading">By Team rand.int()</h3>
+        <p class = "description">
+            This tool is a visualiser for our Mini-Project in CS648 in 2024. Given an input of N, it will drop N points on the [0, 1] line randomly and uniformly and highlight the smallest interval formed
+        </p>
+        <div class = "user">
+            <input  class = "input" type="text" id="textField" placeholder="Input">
+            <button class="button" id = "submit"><strong>GO</strong></button>
+        </div>
+        <canvas class = "canvas" id = "canvas">
+            canvas
+        </canvas>
+    </div>
+    <info class = "info" id="info"></info>
+    <footer class="footer"> &copy; Ridin Datta 2024</footer>
+    <script src="static/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
